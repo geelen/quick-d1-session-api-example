@@ -1,0 +1,16 @@
+{
+  "name": "hono-d1-middleware",
+  "version": "0.0.0",
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20240320.1",
+    "typescript": "^5.4.3",
+    "vitest": "^1.4.0",
+    "wrangler": "3.39.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler deploy",
+    "test": "vitest"
+  }
+}
